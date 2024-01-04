@@ -170,3 +170,9 @@ span {
     margin-right: 2%; /* Adjust the margin as needed */
   }
 }
+
+@media only screen and (max-width: 768px) {
+  span {
+    display: none;
+  }
+}
