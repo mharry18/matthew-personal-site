@@ -172,8 +172,8 @@ const Page = () => {
               <p className="text-left">
                 <ul>
                   <li>
-                    Gathered data requirements for HCA's patient care management
-                    applications
+                    Gathered data requirements for HCA&apos;s patient care
+                    management applications
                   </li>
                   <li>
                     Created reference data tables in Ataccama for use in
@@ -209,7 +209,7 @@ const Page = () => {
                   </li>
                   <li>
                     Collaborated with sales, marketing, and editorial teams to
-                    determine a new project's financial viability
+                    determine a new project&apos;s financial viability
                   </li>
                   <li>
                     Built financial reports for business leaders in
