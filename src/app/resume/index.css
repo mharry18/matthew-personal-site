@@ -1,0 +1,172 @@
+.top-title {
+  text-align: center;
+  color: black;
+}
+
+
+/* html {
+  height: 3500px;
+} */
+
+.body {
+  min-height: 100vh;
+  background-color: white;
+}
+
+
+h1 {
+  margin: -2px;
+}
+
+h2 {
+  color: black;
+  margin: -1px;
+}
+
+
+/*h4 {
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 20px;
+}*/
+
+.mt-n2 {
+  margin-top: -0.5rem !important;
+}
+
+.mb-n4 {
+  margin-bottom: -1rem !important;
+}
+
+
+
+span {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.page hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  width: 97.5%;
+  margin-left: 1.25%;
+  opacity: 1;
+}
+
+/*a {
+  color: blue;
+}*/
+
+.skill-list {
+
+}
+
+.exp-section {
+  height: 2000px;
+}
+
+.prof-title {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.experience {
+  width: 96%;
+  flex: auto;
+  position: relative;
+  left: 25px;
+  margin-bottom: 35px;
+}
+
+.experience-job {
+  position: relative;
+  width: 40%;
+  top: -20px;
+  left: 10px;
+}
+
+.time {
+  position: absolute;
+  width: 40%;
+  height: 40px;
+  text-align: right;
+  right: 0;
+  top: -40px;
+}
+
+.experience-time {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.experience-description {
+  position: relative;
+  margin-left: 10px;
+  margin-top: -40px;
+  font-size: 20px;
+}
+
+.contributions {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.degree-bs, .school-berry {
+  text-align: center;
+  font-size: 20px;
+}
+
+.description-education {
+  flex: auto;
+  border-style: solid;
+}
+
+.page {
+  page-break-before: always;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.cert-link {
+  color: blue;
+}
+
+.cert-link:hover {
+  text-decoration: underline;
+}
+
+/* .page:nth-child(odd) {
+  background-color: #f0f0f0;
+} */
+
+@media print {
+  .page {
+    page-break-before: always;
+  }
+
+  .col-lg-6 {
+    width: 48%; /* Adjust the width as needed */
+    float: left !important;
+    margin-right: 2%; /* Adjust the margin as needed */
+  }
+
+  /* Clear float after every two columns to prevent stacking */
+  .col-lg-6:nth-child(2n) {
+    margin-right: 0;
+    clear: both;
+  }
+
+  .col-lg-4:nth-child(3n) {
+    margin-right: 0;
+    clear: both;
+  }
+
+  .col-lg-4 {
+    width: 31%; /* Adjust the width as needed */
+    float: left !important;
+    margin-right: 2%; /* Adjust the margin as needed */
+  }
+}

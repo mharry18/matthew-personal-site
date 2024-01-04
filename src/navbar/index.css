@@ -1,0 +1,16 @@
+.nav-bar {
+  margin: 1rem;
+}
+
+.navlink {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: blue;
+  margin: 1rem;
+}
