@@ -14,15 +14,15 @@ const Page = () => {
             <h1>Matthew Harry</h1>
           </Row>
           <Row md={'auto'} className="justify-content-center mt-2">
-            <h3 className="text-primary">
+            <h3 className="text-primary test-text">
               <u>615-510-7781</u>
             </h3>
-            <span>|</span>
-            <h3 className="text-primary">
+            <span className="test-text">&#124;</span>
+            <h3 className="text-primary test-text">
               <u>matthew.s.harry11@gmail.com</u>
             </h3>
-            <span>|</span>
-            <h3 className="text-primary">
+            <span className="test-text">&#124;</span>
+            <h3 className="text-primary test-text">
               <a
                 href="https://www.linkedin.com/in/matthew-h-14515397/"
                 target="_blank"
@@ -41,7 +41,7 @@ const Page = () => {
         <hr />
         <div className="container-fluid mb-n4">
           <div className="row text-center font-weight-bold">
-            <div className="col-sm-4">
+            <div className="col-4">
               <ul className="list-inline mx-auto">
                 <li>Microsoft Excel</li>
                 <li>Microsoft PowerPoint</li>
@@ -51,7 +51,7 @@ const Page = () => {
                 {/* <!--<li>HTML</li>--> */}
               </ul>
             </div>
-            <div className="col-sm-4">
+            <div className="col-4">
               <ul className="list-inline mx-auto justify-content-center">
                 <li>MS SQL Server</li>
                 <li>Teradata</li>
@@ -61,7 +61,7 @@ const Page = () => {
                 {/* <!--<li>CSS</li>--> */}
               </ul>
             </div>
-            <div className="col-sm-4">
+            <div className="col-4">
               <ul className="list-inline mx-auto justify-content-center">
                 <li>Data Analysis</li>
                 <li>Healthcare Reporting</li>
@@ -81,22 +81,25 @@ const Page = () => {
         </div>
         <hr />
         <div className="container-fluid justify-content-center align-items-center">
-          <Row md={'auto'} className="row justify-content-between ms-1 me-1">
-            <div className="col-sm-4">
+          <Row
+            md={'auto'}
+            className="row justify-content-between ms-1 me-1 job-info"
+          >
+            <div className="col-5">
               <h4>
                 <u>HCA Healthcare</u>
               </h4>
               <h5>Senior Product Analyst</h5>
             </div>
-            <div className="col-sm-6 text-end">
-              <h4 className="font-weight-normal">
+            <div className="col-7 text-end">
+              <h4 className="font-weight-normal date">
                 December 2021 &mdash; October 2023
               </h4>
               <h5></h5>
             </div>
           </Row>
-          <Row className="justify-content-between ms-1 ml-0">
-            <div className="col-lg-12">
+          <Row className="justify-content-between ms-1 me-1">
+            <div className="col-lg-12 job-info">
               <p className="text-left">
                 <ul>
                   <li>
@@ -121,20 +124,20 @@ const Page = () => {
           </Row>
         </div>
         <div className="container-fluid justify-content-center align-items-center">
-          <Row className="row justify-content-between ms-1 me-1">
-            <div className="col-sm-6">
+          <Row className="row justify-content-between ms-1 me-1 job-info">
+            <div className="col-5">
               <h4>
                 <u>Ardent Health Services</u>
               </h4>
               <h5>Reimbursement Analyst</h5>
             </div>
-            <div className="col-sm-6 text-end">
-              <h4 className="font-weight-normal">
+            <div className="col-7 text-end">
+              <h4 className="font-weight-normal date">
                 September 2020 &mdash; December 2021
               </h4>
             </div>
           </Row>
-          <Row className="justify-content-between ms-1 ml-0">
+          <Row className="justify-content-between ms-1 me-1 job-info">
             <div className="col-lg-12">
               <p className="text-left">
                 <ul>
@@ -157,14 +160,16 @@ const Page = () => {
         </div>
         <div className="container-fluid justify-content-center align-items-center">
           <Row className="row justify-content-between me-1 ms-1">
-            <div className="col-lg-6">
+            <div className="col-5">
               <h4>
                 <u>HCA Healthcare</u>
               </h4>
               <h5>Product Analyst II</h5>
             </div>
-            <div className="col-lg-6 text-end">
-              <h4 className="font-weight-normal">June 2019 &mdash; May 2020</h4>
+            <div className="col-7 text-end">
+              <h4 className="font-weight-normal date">
+                June 2019 &mdash; May 2020
+              </h4>
             </div>
           </Row>
           <Row className="justify-content-between ms-1">
@@ -188,14 +193,14 @@ const Page = () => {
         </div>
         <div className="container-fluid justify-content-center align-items-center">
           <Row className="row justify-content-between ms-1 me-1">
-            <div className="col-lg-6">
+            <div className="col-5">
               <h4>
                 <u>LifeWay Christian Resources</u>
               </h4>
               <h5>Business Analyst</h5>
             </div>
-            <div className="col-lg-6 text-end">
-              <h4 className="font-weight-normal">
+            <div className="col-7 text-end">
+              <h4 className="font-weight-normal date">
                 January 2019 &mdash; May 2019
               </h4>
             </div>
@@ -226,14 +231,14 @@ const Page = () => {
         </div>
         <div className="container-fluid justify-content-center align-items-center">
           <Row className="justify-content-between ms-1 me-1">
-            <div className="col-lg-6">
+            <div className="col-5">
               <h4>
                 <u>LifeWay Christian Resources</u>
               </h4>
               <h5>Business Support Analyst</h5>
             </div>
-            <div className="col-lg-6 text-end">
-              <h4 className="font-weight-normal">
+            <div className="col-7 text-end">
+              <h4 className="font-weight-normal date">
                 April 2018 &mdash; January 2019
               </h4>
             </div>
