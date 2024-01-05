@@ -229,8 +229,11 @@ span {
   /* .body {
     font-size: 1.2rem;
   } */
+  li {
+    font-size: .65rem;
+  }
 
-  .test-text ,p, a, li {
+  .test-text ,p, a {
     font-size: .8rem;
   }
   h2, h3, h4, h5 {

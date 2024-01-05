@@ -46,7 +46,7 @@ const Page = () => {
                 <li>Microsoft Excel</li>
                 <li>Microsoft PowerPoint</li>
                 <li>Microsoft Visio</li>
-                <li>Visual Basic for Applications</li>
+                <li>PowerBI</li>
                 <li>PowerDesigner</li>
                 {/* <!--<li>HTML</li>--> */}
               </ul>
@@ -66,7 +66,7 @@ const Page = () => {
                 <li>Data Analysis</li>
                 <li>Healthcare Reporting</li>
                 <li>Financial Reporting</li>
-                <li>PowerBI</li>
+                <li>Visual Basic for Applications</li>
                 <li>Budgeting</li>
                 {/* <!--<li>Bootstrap 4</li>--> */}
               </ul>
@@ -293,7 +293,7 @@ const Page = () => {
           </Row>
           <Row className="text-center">
             <h5 className="font-weight-normal">
-              Berry College, Mount Berry, GA
+              Berry College - Mount Berry, GA
             </h5>
           </Row>
         </Container>
