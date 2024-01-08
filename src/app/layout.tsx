@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './globals.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
+// import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,6 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <script
+        src="https://kit.fontawesome.com/74403d037a.js"
+        crossOrigin="anonymous"
+      ></script>
       <body className={inter.className}>{children}</body>
     </html>
   );
