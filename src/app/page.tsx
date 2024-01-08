@@ -78,14 +78,14 @@ export default function Home() {
               <h1>Welcome</h1>
               <p>
                 My name is Matthew and, in a journey full of twists and turns,
-                I'm a software engineer.
+                I&apos;m a software engineer.
               </p>
               <p>
-                I completed my Bachelor's degree in Accounting and Finance at
-                Berry College in Rome, Georgia. During my studies, I undertook
-                internships for two summers, serving as a financial analyst
-                intern. These experiences exposed me to extensive use of Excel
-                and introduced me to Visual Basic for Applications (VBA),
+                I completed my Bachelor&apos;s degree in Accounting and Finance
+                at Berry College in Rome, Georgia. During my studies, I
+                undertook internships for two summers, serving as a financial
+                analyst intern. These experiences exposed me to extensive use of
+                Excel and introduced me to Visual Basic for Applications (VBA),
                 marking my initial exposure to programming. Upon graduation, I
                 transitioned into a role as a financial analyst at a small
                 publisher.
