@@ -13,14 +13,15 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import ExperienceTimeline from './timeline';
+import useScreenWidth from '@/hooks/useScreenWidth';
 
 export default function Home() {
+  const screenWidth = useScreenWidth();
   return (
     <>
       <MainNavBar />
-      <section className="mb-5">
+      <section className="mb-5 p-2">
         <Container className="home-section">
           <Row className="ms-5 me-5">
             <Col
@@ -130,22 +131,15 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className="experience">
+      {/* <section className="experience">
         <Container>
           <Row>
             <h2 className="mt-5">Experience</h2>
+            <p>{screenWidth}</p>
+            <ExperienceTimeline />
           </Row>
         </Container>
-      </section>
-
-      {/* <iframe
-          title="Nashville Weather History"
-          width="1140"
-          height="541.25"
-          src="https://app.powerbi.com/reportEmbed?reportId=99fc1349-0884-480f-ae99-65be72b069f6&autoAuth=true&ctid=24ef912a-7cf7-459f-b841-4b187d7ee4c5"
-          frameborder="0"
-          allowFullScreen={true}
-        ></iframe> */}
+      </section> */}
     </>
   );
 }

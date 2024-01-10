@@ -1,12 +1,12 @@
-'use client';
-
 import { useState, useEffect } from 'react';
 
 const useScreenWidth = () => {
-  const [screenWidth, setScreenWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
+  const [screenWidth, setScreenWidth] = useState(() => (typeof window !== 'undefined' ? window.innerWidth : 1440));
 
   const handleResize = () => {
+    requestAnimationFrame(() => {
     setScreenWidth(window.innerWidth);
+  });
   };
 
   useEffect(() => {
