@@ -42,7 +42,7 @@ const MainNavBar = () => {
             <NavbarCollapse id="navbar-nav">
               <NavLink href="/">Home</NavLink>
               <NavLink href="/contact">Contact</NavLink>
-              <NavLink href="/projects">Projects</NavLink>
+              <NavLink href="/portfolio">PowerBI Portfolio</NavLink>
               <NavLink href="/resume">Resume</NavLink>
             </NavbarCollapse>
           </Nav>
