@@ -24,7 +24,6 @@ const Portfolio = () => {
               title="Report Section"
               className="embed-responsive-item"
               src="https://app.powerbi.com/view?r=eyJrIjoiZDMyY2Q2N2QtYzBjNC00MmI2LTk3NWMtZTVkYmM0ZGQ4YTFhIiwidCI6IjI0ZWY5MTJhLTdjZjctNDU5Zi1iODQxLTRiMTg3ZDdlZTRjNSJ9"
-              frameborder="0"
               allowFullScreen={true}
               width="100%"
               height="600"
