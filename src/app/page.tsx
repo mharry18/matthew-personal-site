@@ -20,7 +20,7 @@ export default function Home() {
   const screenWidth = useScreenWidth();
   return (
     <>
-      <MainNavBar />
+      {/* <MainNavBar /> */}
       <section className="mb-5 p-2">
         <Container className="home-section">
           <Row className="ms-5 me-5">

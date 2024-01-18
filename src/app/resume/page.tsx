@@ -108,7 +108,8 @@ const Page = () => {
                   </li>
                   <li>
                     Created reports in Power BI using sources such as MS SQL
-                    Server, Teradata, Microsoft Azure
+                    Server, Teradata, Microsoft Azure for use by Oncology, ER
+                    Follow Up, and Cardiovascular teams
                   </li>
                   <li>
                     Designed a dynamic row level security solution in Power BI
@@ -117,6 +118,10 @@ const Page = () => {
                   <li>
                     Created reporting tables in Microsoft Azure from disparate
                     sources
+                  </li>
+                  <li>
+                    Sourced data for reporting from various systems including
+                    Epic, Meditech, and Cerner EMRs
                   </li>
                 </ul>
               </p>
