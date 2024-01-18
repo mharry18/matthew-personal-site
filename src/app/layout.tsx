@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <MainNavBar />
-      <body>{children}</body>
+      <body className="mt-5">{children}</body>
       <Footer />
     </html>
   );
