@@ -9,6 +9,7 @@
 } */
 
 .body {
+  margin-top: 4rem;
   min-height: 100vh;
   background-color: white;
 }
@@ -176,6 +177,36 @@ span {
     float: left !important;
     margin-right: 2%; /* Adjust the margin as needed */
   }
+  span.test-text {
+    /* display: none; */
+  }
+
+  div.body pt-2 pb-2 pr-2n {
+    margin-top: -20px;
+  }
+
+  li {
+    font-size: .65rem;
+  }
+
+  .test-text ,p, a {
+    font-size: 1.0rem;
+  }
+  h2, h3, h4, h5, h6.fw-normal span {
+    font-size: 1rem;
+  }
+
+  .date {
+    font-size: .83rem;
+  }
+
+  .col-5 h5 {
+    font-size: 0.8rem;
+  }
+  .body {
+    margin-top: 0rem;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {

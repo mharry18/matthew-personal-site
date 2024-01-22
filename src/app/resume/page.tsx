@@ -6,14 +6,14 @@ import './index.css';
 
 const Page = () => {
   return (
-    <div className="body pt-2 pb-2 pr-2n">
+    <div className="body pt-2n pb-2 pr-2n">
       <div className="page">
         <hr />
         <Container fluid className="justify-content-center text-center">
           <Row lg={'auto'} className="justify-content-center">
             <h1>Matthew Harry</h1>
           </Row>
-          <Row md={'auto'} className="justify-content-center mt-2">
+          <Row sm={'auto'} className="justify-content-center mt-2">
             <h3 className="text-primary test-text">
               <u>615-510-7781</u>
             </h3>
@@ -234,6 +234,8 @@ const Page = () => {
             </div>
           </Row>
         </div>
+      </div>
+      <div className="page">
         <div className="container-fluid justify-content-center align-items-center">
           <Row className="justify-content-between ms-1 me-1">
             <div className="col-5">
@@ -281,8 +283,7 @@ const Page = () => {
             </div>
           </Row>
         </div>
-      </div>
-      <div className="page">
+
         <hr />
         <Container fluid className="container">
           <div className="row justify-content-center text-center">
@@ -311,7 +312,7 @@ const Page = () => {
         </Container>
         <hr />
         <Container fluid>
-          <Container fluid>
+          <Container fluid className="mb-0">
             <Row className="justify-content-center text-center">
               <h5 className="fw-bold">The Ultimate Excel Programmer Course</h5>
             </Row>
@@ -332,7 +333,7 @@ const Page = () => {
               </a>
             </Row>
           </Container>
-          <Container fluid>
+          <Container fluid className="mb-0">
             <Row className="justify-content-center text-center">
               <h5 className="fw-bold">
                 Microsoft 2013 Advanced Online Excel Training Course
@@ -353,7 +354,7 @@ const Page = () => {
               </a>
             </Row>
           </Container>
-          <Container fluid>
+          <Container fluid className="mb-0">
             <Row className="justify-content-center text-center">
               <h5 className="fw-bold">The Ultimate MySQL Bootcamp</h5>
             </Row>
@@ -372,7 +373,7 @@ const Page = () => {
               </a>
             </Row>
           </Container>
-          <Container fluid>
+          <Container fluid className="mb-0">
             <Row className="justify-content-center text-center">
               <h5 className="fw-bold">
                 The Complete 2020 Web Development Bootcamp

@@ -28,8 +28,11 @@ const MainNavBar = () => {
     <>
       <Navbar
         className={
-          screenWidth > 992 ? 'custom-nav-bar' : 'custom-nav-bar-mobile'
+          screenWidth > 992
+            ? 'navbar custom-nav-bar'
+            : 'navbar custom-nav-bar-mobile'
         }
+        // id="navbar"
         expand="lg"
         collapseOnSelect
         bg="light"

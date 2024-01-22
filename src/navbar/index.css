@@ -46,3 +46,13 @@ a {
   color: blue;
   margin: 1rem;
 }
+
+@media print {
+ .navbar {
+  display: none;
+}
+
+body {
+  margin-top: 0;
+}
+}
