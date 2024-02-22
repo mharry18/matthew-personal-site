@@ -14,10 +14,10 @@ const Page = () => {
             <h1>Matthew Harry</h1>
           </Row>
           <Row sm={'auto'} className="justify-content-center mt-2">
-            <h3 className="text-primary test-text">
+            {/* <h3 className="text-primary test-text">
               <u>615-510-7781</u>
             </h3>
-            <span className="test-text">&#124;</span>
+            <span className="test-text">&#124;</span> */}
             <h3 className="text-primary test-text">
               <u>matthew.s.harry11@gmail.com</u>
             </h3>

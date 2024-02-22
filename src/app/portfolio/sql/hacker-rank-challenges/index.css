@@ -1,0 +1,64 @@
+.filter-button {
+  display: inline-block;
+  width: 6.5rem;
+  margin: 10px 10px;
+  padding: 5px 10px;
+  border: 1px solid; /* Green border */
+  border-radius: 5px;
+  cursor: pointer; /* Show pointer cursor on hover */
+  position: relative; /* Position relative for absolute positioning of dot */
+}
+
+.filter-button:hover {
+  background-color: lightgrey;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border: solid;
+  border-radius: 50%; /* Circular dot */
+  display: inline-block;
+  position: absolute; /* Position absolute to position the dot */
+  left: 5px; /* Adjust position as needed */
+  top: 50%; /* Adjust position as needed */
+  transform: translateY(-50%); /* Center vertically */
+  margin-right: 5px;
+}
+
+.green-filled {
+  background-color: green; /* Green dot */
+  border-color: green;
+}
+
+.green-empty {
+  border-color: green;
+}
+
+.yellow-filled {
+  background-color: yellow; /* Green dot */
+  border-color: yellow;
+}
+
+.yellow-empty {
+  border-color: yellow;
+
+}
+
+.red-filled {
+  background-color: red; /* Green dot */
+  border-color: red;
+}
+
+.red-empty {
+  border-color: red;
+}
+
+.black-filled {
+  background-color: black; /* Green dot */
+  border-color: black;
+}
+
+.black-empty {
+  border-color: black;
+}

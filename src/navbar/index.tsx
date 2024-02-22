@@ -44,8 +44,11 @@ const MainNavBar = () => {
             <NavbarToggle aria-controls="navbar-nav" />
             <NavbarCollapse id="navbar-nav">
               <NavLink href="/">Home</NavLink>
-              <NavLink href="/contact">Contact</NavLink>
-              <NavLink href="/portfolio">PowerBI Portfolio</NavLink>
+              {/* <NavLink href="/contact">Contact</NavLink> */}
+              <NavLink href="/portfolio/powerbi">PowerBI Portfolio</NavLink>
+              <NavLink href="/portfolio/sql/hacker-rank-challenges">
+                SQL Portfolio
+              </NavLink>
               <NavLink href="/resume">Resume</NavLink>
             </NavbarCollapse>
           </Nav>
