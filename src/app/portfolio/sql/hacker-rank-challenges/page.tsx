@@ -62,7 +62,7 @@ const Portfolio = () => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [handleScroll]);
 
   return (
     <Container className="pt-5 text-center mt-5">
