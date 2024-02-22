@@ -134,8 +134,8 @@ const Portfolio = () => {
                     </h5>
                     <h5 style={{ display: 'inline', textAlign: 'left' }}>
                       {' ' + challenge.question}
-                      {challenge.questionCriteria?.map((criteria) => {
-                        return <li>{criteria}</li>;
+                      {challenge.questionCriteria?.map((criteria, index) => {
+                        return <li key={index}>{criteria}</li>;
                       })}
                     </h5>
                   </div>
