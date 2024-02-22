@@ -93,7 +93,8 @@ const Page = () => {
             </div>
             <div className="col-7 text-end">
               <h4 className="font-weight-normal date">
-                December 2021 &mdash; October 2023
+                {/* December 2021 &mdash; October 2023 */}
+                December 2021 &mdash; Present
               </h4>
               <h5></h5>
             </div>
