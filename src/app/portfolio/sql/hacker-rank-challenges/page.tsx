@@ -32,7 +32,7 @@ const Portfolio = () => {
     return hrsolutionsdata.filter(
       (solution) => solution.difficulty == filterValue
     );
-  }, [hrsolutionsdata, filterValue]);
+  }, [filterValue]);
 
   const handleFilter = (e: React.MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
