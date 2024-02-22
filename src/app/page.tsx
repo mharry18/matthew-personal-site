@@ -55,6 +55,8 @@ export default function Home() {
                       icon={faHackerrank}
                       size="2x"
                       className="site-link"
+                      href="https://www.hackerrank.com/profile/matthew_s_harry1"
+                      target="_blank"
                     />
                   </a>
                   <span>&#183;</span>
